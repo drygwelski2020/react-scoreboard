@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { Scoreboard } from './Scoreboard'
 
 class App extends Component {
-
   render() {
     console.log(this.state)
     return (
@@ -14,6 +13,7 @@ class App extends Component {
           <Scoreboard teamName="SDG C#-ers" />
           <Scoreboard teamName="SDG JS-ers" />
           <Scoreboard teamName="SDG Staff" />
+          <Scoreboard teamName="SDG Alumn" />
           <div>
             <button type="button">Reset Scores</button>
           </div>
